@@ -3,6 +3,22 @@
     padding: 0;
 }
 
+@font-face {
+    src: url(Fontes/Outlier-Rail.woff);
+    font-family: 'Outlier-Rail';
+    font-weight: normal;
+}
+
+nav ul li {
+    font-family: 'Outlier-Rail';
+    font-size: 16px;
+}
+
+footer ul li {
+    font-family: 'Outlier-Rail';
+    font-size: 16px;
+}
+
 body {
     background-color: rgb(240, 248, 255);
 }
@@ -33,14 +49,12 @@ header a {
     position: right;
     color: white;
     padding: 14px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .logopeq {
     width: 85%;
     align-items: center;
-
-
 }
 
 .logopeq img {
@@ -106,13 +120,13 @@ footer {
 .footer-nav li a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .contact-info {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .contact-info ul {
